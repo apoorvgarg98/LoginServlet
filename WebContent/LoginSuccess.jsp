@@ -8,7 +8,7 @@
 </head>
 <body>
 <%User u=(User)request.getAttribute("User"); %>
-Login Successful<br>
+Login Successful into Login Servlet<br>
 Welcome <%=u.getUserName() %>
 </body>
 </html>
